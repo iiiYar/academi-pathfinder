@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { StatsCard } from "@/components/StatsCard";
 import { CourseCard } from "@/components/CourseCard";
@@ -81,6 +82,7 @@ const initialCourses = [
 ];
 
 const Index = () => {
+  const navigate = useNavigate();
   const [courses, setCourses] = useState(initialCourses);
   const [searchQuery, setSearchQuery] = useState("");
   const [addCourseOpen, setAddCourseOpen] = useState(false);
@@ -132,10 +134,7 @@ const Index = () => {
   };
 
   const handleViewCourse = (courseId: string) => {
-    toast({
-      title: "Opening Course",
-      description: "Course details view coming soon!",
-    });
+    navigate(`/course/${courseId}`);
   };
 
   const handleEditCourse = (courseId: string) => {

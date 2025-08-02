@@ -18,6 +18,7 @@ import {
   DropdownMenuSeparator
 } from "@/components/ui/dropdown-menu";
 import { Badge } from "@/components/ui/badge";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 interface HeaderProps {
   onAddCourse: () => void;
@@ -94,6 +95,9 @@ export function Header({ onAddCourse, onSearch }: HeaderProps) {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
+
+            {/* Theme Toggle */}
+            <ThemeToggle />
 
             {/* Quick Actions */}
             <DropdownMenu>
