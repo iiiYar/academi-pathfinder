@@ -2,7 +2,6 @@
 
 ## 📸 Dashboard Screenshots
 
-### Dashboard
 ![Home Dashboard](./doc/images/dashboard.png)
 
 
