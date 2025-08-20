@@ -1,73 +1,169 @@
-# Welcome to your Lovable project
+# 🎓 Academic Pathfinder
 
-## Project info
+## 📖 Overview
 
-**URL**: https://lovable.dev/projects/f5b693c2-3eb7-485a-8320-1345929d04f9
+**Academic Pathfinder** is an advanced web application designed to manage educational pathways and course materials in an intelligent and organized manner. The system provides a comprehensive platform for students and teachers to manage educational courses, lessons, and assignments while tracking progress and achievements.
 
-## How can I edit this code?
+## 🚀 Key Features
 
-There are several ways of editing your application.
+- **Course Management**: Create and organize educational courses
+- **Lesson Management**: Organize educational content into separate lessons
+- **Assignment System**: Create and track assignments and tasks
+- **Learning Proof**: Track progress and achievements
+- **Comprehensive Statistics**: Display data and analytics
+- **Modern User Interface**: Responsive and advanced design
 
-**Use Lovable**
+## 🏗️ Technical Architecture
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f5b693c2-3eb7-485a-8320-1345929d04f9) and start prompting.
+### Frontend (User Interface)
 
-Changes made via Lovable will be committed automatically to this repo.
+#### Technologies Used
+- **React 18** - User interface library
+- **TypeScript** - For writing safe and organized code
+- **Vite** - Fast build tool
+- **Tailwind CSS** - CSS framework for design
+- **Shadcn/ui** - Advanced UI component library
 
-**Use your preferred IDE**
+#### Main Pages
+- **Home Page** (`Index.tsx`) - Display courses and statistics
+- **Course Details** (`CourseDetail.tsx`) - Show course content and lessons
+- **404 Page** (`NotFound.tsx`) - Error page
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#### Core Components
+- **Header** - Main navigation bar
+- **CourseCard** - Course display card
+- **LessonCard** - Lesson display card
+- **AssignmentCard** - Assignment display card
+- **StatsCard** - Statistics display
+- **ProofOfLearning** - Learning proof and progress
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+#### Dialog Windows
+- **AddCourseDialog** - Add new course
+- **AddLessonDialog** - Add new lesson
+- **AddAssignmentDialog** - Add new assignment
 
-Follow these steps:
+#### UI Components
+- **Button** - Multiple style buttons
+- **Card** - Content display cards
+- **Dialog** - Dialog windows
+- **Form** - Input forms
+- **Input** - Input fields
+- **Select** - Selection lists
+- **Toast** - System notifications
+- **ThemeToggle** - Theme switching
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Backend (Server Side)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+#### Technologies Used
+- **Node.js** - JavaScript runtime environment
+- **Express.js** - Web framework
+- **MongoDB** - Database
+- **Mongoose** - Database ODM
+- **JWT** - User authentication
 
-# Step 3: Install the necessary dependencies.
-npm i
+#### Models
+- **Course** - Educational course model
+- **Lesson** - Lesson model
+- **Assignment** - Assignment model
+- **User** - User model
+- **Progress** - Progress model
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+#### API Endpoints
+- **Authentication**: Login and registration
+- **Courses**: CRUD for educational courses
+- **Lessons**: Manage lessons within courses
+- **Assignments**: Manage assignments and tasks
+- **Progress**: Track user progress
+
+## 📱 Advanced Features
+
+- **Responsive Design**: Works on all devices
+- **Dark Mode**: Support for dark and light themes
+- **Instant Notifications**: System alerts
+- **Advanced Search**: Content search functionality
+- **Filtering and Sorting**: Data organization
+- **Data Export**: Save reports
+
+## 🚧 Development Status
+
+**⚠️ This project is under active development**
+
+We are continuously working on improving and developing new features. Some functions may be incomplete or under testing.
+
+## 🛠️ Installation and Setup
+
+### Prerequisites
+- Node.js (Version 18 or later)
+- npm or yarn or bun
+- Modern web browser
+
+### Installation Steps
+
+1. **Clone the project**
+```bash
+git clone [project-url]
+cd academi-pathfinder
 ```
 
-**Edit a file directly in GitHub**
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. **Run the project**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+bun dev
+```
 
-**Use GitHub Codespaces**
+4. **Open browser**
+```
+http://localhost:5173
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+academi-pathfinder/
+├── src/
+│   ├── components/          # Main components
+│   │   ├── ui/             # Basic UI components
+│   │   └── *.tsx           # Application-specific components
+│   ├── pages/              # Application pages
+│   ├── hooks/              # React Hooks
+│   ├── lib/                # Helper libraries
+│   └── main.tsx            # Entry point
+├── public/                 # Public files
+├── package.json            # Project dependencies
+└── README.md               # This file
+```
 
-This project is built with:
+## 🤝 Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+We welcome your contributions! Please follow these steps:
 
-## How can I deploy this project?
+1. Fork the project
+2. Create a feature branch
+3. Make changes
+4. Submit a Pull Request
 
-Simply open [Lovable](https://lovable.dev/projects/f5b693c2-3eb7-485a-8320-1345929d04f9) and click on Share -> Publish.
+## 📄 License
 
-## Can I connect a custom domain to my Lovable project?
+This project is licensed under the MIT License.
 
-Yes, you can!
+## 📞 Support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For any questions or issues, please contact us via:
+- Create an Issue on GitHub
+- Send an email
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+**Developed by the Academic Pathfinder Team** 🚀
