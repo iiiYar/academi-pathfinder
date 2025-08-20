@@ -1,5 +1,13 @@
 # 🎓 Academic Pathfinder
 
+## 📸 Dashboard Screenshots
+
+### Dashboard
+![Home Dashboard](./doc/images/dashboard.png)
+
+
+---
+
 ## 📖 Overview
 
 **Academic Pathfinder** is an advanced web application designed to manage educational pathways and course materials in an intelligent and organized manner. The system provides a comprehensive platform for students and teachers to manage educational courses, lessons, and assignments while tracking progress and achievements.
